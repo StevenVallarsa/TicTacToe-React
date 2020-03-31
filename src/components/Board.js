@@ -2,6 +2,7 @@ import React from "react";
 import Square from "./Square";
 
 function Board({ squares, onClick }) {
+  console.log("HI");
   return (
     <div>
       <Square value={1} onClick={() => onClick("function to come later")} />
